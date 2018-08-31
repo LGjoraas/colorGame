@@ -1,0 +1,74 @@
+body {  /* element */
+	background: #232323;
+	margin: 0;
+	font-family: "Monstserrat", "Avenir";
+}
+
+.square { /* class */
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 15%;
+	transition: background 0.6s;
+	-webkit-transition: background 0.6s; /* adds support for safari browsers */
+	-moz-transition: background 0.6s; /* adds support for firefox browsers */
+}
+
+#container { /* id */
+	margin: 20px auto;  /* 20px top/bottom, auto left/right (centers)*/	
+	max-width: 600px;
+}
+
+h1 {
+	text-align: center;
+	line-height: 1.1;
+	color: white;
+	background: steelblue;
+	margin: 0;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 20px 0; /* 20pxtop/bottom, 0 left/right*/
+}
+
+#colorDisplay {
+	font-size: 200%;
+}
+
+#message {
+	color: black;
+	display: inline-block;
+	width: 20%;
+}
+
+#stripe {
+	background: white;
+	height: 30px;
+	text-align: center;
+}
+
+.selected {
+	color: white;
+	background: steelblue;
+}
+
+button {
+	border: none;
+	background: none;
+	outline: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all .3s; /* what we want to transition, how long it takes (in seconds)*/
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+}
+
+button:hover {
+	color: white;
+	background: steelblue;
+}
